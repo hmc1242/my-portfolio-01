@@ -1,0 +1,35 @@
+#path_bar{
+	width:100%;
+	height:1.2em+20px;
+	border:1px dotted grey;
+}
+#path_bar ul{
+	width:100%;
+	height:1.2em;
+	padding:10px 20px;
+}
+#path_bar ul li{
+	display:inline-block;
+	vertical-align:middle;
+	height:1.2em;
+}
+#path_bar ul li a #home_icon{
+	display:inline-block;
+	width:1.2em;
+	height:1.2em;
+	background:url("/img/house-solid.svg") no-repeat center center;
+	background-size:100% 100%;
+}
+#path_bar ul li a span{
+	display:inline-block;
+}
+#path_bar ul .path_bar_text_list::before{
+	content:"";
+	display:inline-block;
+	width:0.6em;
+	height:0.6em;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	transform:rotate(-45deg);
+	margin:0 20px;
+}

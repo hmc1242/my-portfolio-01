@@ -1,0 +1,64 @@
+#products_box{
+	width:100%;
+	height:60%;
+	min-height:400px;
+	margin-bottom:20px;
+}
+#products_box tr{
+	width:100%;
+	height:30%;
+}
+#products_box tr th h2{
+	text-align:center;
+	padding-bottom:10px;
+}
+#products_box #products_select{
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:space-between;
+}
+
+#products_box #products_select .products_select_boxes{
+	width:300px;
+	height:300px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#products_box #products_select .products_select_boxes h3{
+	width:100%;
+	height:10%;
+	text-align:center;
+}
+
+#products_box #products_select .products_select_boxes .products_img_wraps{
+	width:90%;
+	height:90%;
+	border:1px solid gray;
+	border-radius:50% 50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#products_box #products_select .products_select_boxes .products_img_wraps .products_imgs{
+	width:70%;
+	height:70%;
+	background-size:100% 100%;
+}
+.products_img_wraps:hover{
+	border:1px solid black;
+}
+.products_img_wraps:hover .products_imgs{
+	transform:scale(110%);
+	cursor:pointer;
+}
+#monitor_img{
+	background:url("/img/monitor/monitor.png") no-repeat;
+}
+#keyboard_img{
+	background:url("/img/keyboard/keyboard.png") no-repeat;
+}
+#mouse_img{
+	background:url("/img/mouse/mouse.png") no-repeat;
+}

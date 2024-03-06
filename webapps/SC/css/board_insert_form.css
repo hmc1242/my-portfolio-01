@@ -1,0 +1,62 @@
+#board_insert_title{
+	width:100%;
+	font-size:2em;
+	margin:50px 0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#board_insert_wrap{
+	width:100%;
+	padding:20px;
+}
+#board_insert_wrap #board_insert_table{
+	width:90%;
+	border-bottom:1px solid black;
+	padding:20px;
+	margin-bottom:10px;
+}
+#board_insert_table tr td{
+	line-height:2em;
+}
+#board_insert_table tr td:first-child{
+	width:20%;
+	font-size:1.2em;
+	font-weight:bold;
+}
+#board_insert_table tr td:last-child{
+	width:80%;
+}
+#board_insert_table tr td input{
+	display:block;
+	width:600px;
+	height:50px;
+	padding:5px;
+	font-size:1em;
+}
+#board_insert_table tr td #post_content{
+	width:800px;
+	height:300px;
+	padding:5px;
+	font-size:0.9em;
+}
+#board_insert_table tr td #reserve_date{
+	width:170px;
+	height:40px;
+}
+#button_box{
+	width:90%;
+	display:flex;
+	justify-content:flex-end;
+	margin:10px 0;
+}
+#submit_button{
+	display:block;
+	width:100px;
+	height:50px;
+	font-size:1em;
+	font-weight:bold;
+	margin:10px;
+	align-self:flex-end;
+}

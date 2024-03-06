@@ -1,0 +1,51 @@
+header{/* 헤더 전체 */
+	position:sticky; /* 윈도우창 기준으로 고정 */
+	width:100%; /* body width에 맞춤 */
+	height:100px;
+	border-bottom:1px solid grey;
+	background-color:white;
+	display:flex; 
+	align-items:center;
+	justify-content:space-between;
+	/* flex로 로고,탑메뉴,서브메뉴 가로, 세로 정렬 */
+	top:0;
+	z-index:1;
+}
+#logo{/* 로고영역 */
+	margin-left:30px;
+	cursor:pointer;
+}
+#logo img{/* 로고영역의 이미지 */
+	width:218px;
+	height:54px;
+}
+#top_menu{/* 탑메뉴 영역 */
+	width:60%; /* body width에 맞춤 */
+	height:70px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#top_menu ul li{/* 각 탑메뉴들 */
+	display:inline-block;
+	margin:0 15px;
+	font-size:1.2em;
+	font-weight:bold;
+}
+#sub_menu{/* 서브메뉴 영역 */
+	margin-right:30px;
+}
+#sub_menu ul li{/* 각 서브메뉴들 */
+	display:inline-block;
+	margin:0 5px;
+	cursor:pointer;
+}
+#sub_menu ul li img{/* 각 서브메뉴의 이미지 */
+	width:30px;
+	height:30px;
+}
+#sub_menu ul li a b{/* 로그인 버튼 */
+	font-size:1.5em;
+	border:1px solid black;
+	border-radius:5px 5px;
+}

@@ -1,0 +1,21 @@
+/* 스타일 초기화 코드 */
+*{
+	padding:0;
+	margin:0;
+}
+html, body{
+	font-family:"나눔고딕";
+	width:100%;
+	height:100%;
+}
+body{
+	min-height:100%;
+	position:relative;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+ul li{
+	list-style-type:none;
+}
